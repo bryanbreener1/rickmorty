@@ -33,7 +33,7 @@ img{
 }
 
 .title{
-    background-image: url('/portrait.jpg');
+    background-image: url('portrait.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
