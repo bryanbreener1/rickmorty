@@ -1,0 +1,7 @@
+.resident-container{
+    margin: 2rem auto 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px ;
+    width: 80vw;
+}

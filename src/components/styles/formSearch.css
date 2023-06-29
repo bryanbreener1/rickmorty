@@ -1,0 +1,27 @@
+.form{
+    width: 40vw;
+    border: 1px solid black;
+    margin: 1rem auto 0 auto;
+    display: flex;
+    border-radius: 0.4em;
+    overflow: hidden;
+    height: 30px;
+
+}
+.form__input{
+    width: 70%;
+    padding: 0 0 0 1em;
+}
+.form__button{
+    width: 30%;
+    padding: 0;
+    background-color: rgb(121, 182, 30);
+    color: white;
+    font-weight: 700;
+}
+@media (max-width: 460px ) {
+    .form{
+        background-color: red;
+        width: 90vw;
+    }
+}
